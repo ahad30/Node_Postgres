@@ -12,7 +12,7 @@ app.use(express.json()); //req.body
 
 //ROUTES//
 
-app.use('/api/v1', itemRoutes);
+app.use('/api', itemRoutes);
 
 app.listen(5000, () => {
   console.log("server has started on port 5000");
